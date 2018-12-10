@@ -1,0 +1,34 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wallaby.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage"
+  },
+  "jest": {
+    "testURL": "http://localhost/"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khuynh92/data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khuynh92/data-structures/issues"
+  },
+  "homepage": "https://github.com/khuynh92/data-structures#readme",
+  "dependencies": {
+    "eslint": "^4.19.1"
+  },
+  "devDependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^8.2.3",
+    "babel-register": "^6.26.0",
+    "jest": "^22.4.4",
+    "jest-cli": "^22.4.4"
+  }
+}
