@@ -12,7 +12,7 @@ run  the command `npm i` to download the project dependencies.
 
 run the command `npm test` to view test acceptance and coverage.
 
-## Dat
+## Data Structures
 
 ### Binary Search Trees
 -----------------------
@@ -35,7 +35,7 @@ root Node {
 }
 ```
 
-#### methods`
+#### methods
 
 - `.insert(value)`
 
