@@ -49,9 +49,9 @@ Checks if a binary tree is a binary search tree.
 
 __output__
 
-- *must input a binary tree* if input is not a binary tree
-- *false* if input is not a binary search tree
-- *true* if input is a binary search tree
+- __*must input a binary tree*__ if input is not a binary tree
+- __*false*__ if input is not a binary search tree
+- __*true*__ if input is a binary search tree
 
 ### Technologies Used
 
