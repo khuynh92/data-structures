@@ -20,6 +20,8 @@ run the command `npm test` to view test acceptance and coverage.
 example of the structure of the binary tree
 
 ```
+{
+
 root Node {
   val: 5,
   right: Node {
@@ -32,6 +34,8 @@ root Node {
     left: null,
     right: null,
   }
+}
+
 }
 ```
 
@@ -52,6 +56,15 @@ __output__
 - __*must input a binary tree*__ if input is not a binary tree
 - __*false*__ if input is not a binary search tree
 - __*true*__ if input is a binary search tree
+
+### Sorting
+-----------
+There are current 4 different sort methods. Each take a single argument of an array
+
+1. bubbleSort()
+1. selectionSort()
+1. mergeSort()
+1. quickSort()
 
 ### Technologies Used
 
