@@ -41,7 +41,7 @@ root Node {
 
 #### methods
 
-- `.insert(value)`
+`.insert(value)`
 
 Inserts a new node into the binary search tree
 
@@ -57,7 +57,7 @@ __output__
 - __*false*__ if input is not a binary search tree
 - __*true*__ if input is a binary search tree
 
-- `fizzBuzzTree(binarySearchTree)`  
+`fizzBuzzTree(binarySearchTree)`  
 
 Converts a Binary Tree's values. If the value is divisible by 3, the value will be turned to 'Fizz', If the value is divisible by 5, the value will be turned to 'Buzz', if the value is divisible both by 3 and 5, the value is changed to 'FizzBuzz'.
 
