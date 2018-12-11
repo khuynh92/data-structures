@@ -47,7 +47,7 @@ Inserts a new node into the binary search tree
 
 #### additional functions
 
-- `isBST(binarySearchTree)`  
+`isBST(binarySearchTree)`  
 
 Checks if a binary tree is a binary search tree.
 
