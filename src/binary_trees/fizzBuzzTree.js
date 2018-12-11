@@ -5,13 +5,15 @@ const fizzBuzzTree = (bst) => {
 
 
 function fizzBuzz(node) {
-  node.val = changeValue(node.val);
-  if(node.right) {
-    fizzBuzz(node.right);
-  } 
-  if(node.left) {
-    fizzBuzz(node.left);
+
+  if(!node) {
+    return node;
   }
+  
+  node.val = changeValue(node.val);
+  fizzBuzz(node.right);
+  fizzBuzz(node.left);
+
   return node;
 }
 
