@@ -22,7 +22,7 @@ describe('fizzBuzztree()', () => {
     BST.insert(60);
     BST.insert(45);
 
-    let fizzBuzz = fizzBuzzTree(BST); //?
+    let fizzBuzz = fizzBuzzTree(BST);
     expect(fizzBuzz.root.val).toBe('FizzBuzz');
     expect(fizzBuzz.root.left.val).toBe('FizzBuzz');
     expect(fizzBuzz.root.right.val).toBe('FizzBuzz');
@@ -34,7 +34,7 @@ describe('fizzBuzztree()', () => {
     BST.insert(3);
     BST.insert(18);
 
-    let fizzBuzz = fizzBuzzTree(BST); //?
+    let fizzBuzz = fizzBuzzTree(BST);
     expect(fizzBuzz.root.val).toBe('Fizz');
     expect(fizzBuzz.root.left.val).toBe('Fizz');
     expect(fizzBuzz.root.right.val).toBe('Fizz');
@@ -46,7 +46,7 @@ describe('fizzBuzztree()', () => {
     BST.insert(10);
     BST.insert(5);
 
-    let fizzBuzz = fizzBuzzTree(BST); //?
+    let fizzBuzz = fizzBuzzTree(BST);
     expect(fizzBuzz.root.val).toBe('Buzz');
     expect(fizzBuzz.root.left.val).toBe('Buzz');
     expect(fizzBuzz.root.right.val).toBe('Buzz');
@@ -60,7 +60,7 @@ describe('fizzBuzztree()', () => {
     BST.insert(3);
     BST.insert(23);
 
-    let fizzBuzz = fizzBuzzTree(BST); //?
+    let fizzBuzz = fizzBuzzTree(BST);
     expect(fizzBuzz.root.val).toBe(22);
     expect(fizzBuzz.root.left.val).toBe('Buzz');
     expect(fizzBuzz.root.right.val).toBe('FizzBuzz');
