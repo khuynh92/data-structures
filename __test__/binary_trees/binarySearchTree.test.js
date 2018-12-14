@@ -7,7 +7,7 @@ describe('Node', () => {
     let node = new Node(5);
 
     expect(node.val).toBe(5);
-    expect(node.left).toBeNull;
+    expect(node.left).toBeNull();
     expect(node.right).toBeNull();
 
   });
